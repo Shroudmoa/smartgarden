@@ -24,6 +24,8 @@ Anschluss A0
 
 Wasserstandsensor
 Grove Water Level Sensor
+<img width="800" height="550" alt="image" src="https://github.com/user-attachments/assets/463aeb59-125b-4201-bb08-dafc76ac149e" />
+
 SKU 101020635
 Webseite [https://wiki.seeedstudio.com/Grove-Water-Level-Sensor/](https://wiki.seeedstudio.com/Grove-Water-Level-Sensor/)
 Anschluss I2C
