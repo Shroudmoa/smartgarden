@@ -19,6 +19,6 @@ while True:
     water = lese_wassterstand()
     insert_readings(soil, temp, humidity, water)
     time.sleep(60)
-    if water => 10% && soil < 40:
-        activate_pump
+    if water >= 10 and soil < 40:
+         activate_pump()
 

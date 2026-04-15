@@ -19,7 +19,6 @@ base = {
     "temperature": 20.0,
     "humidity": 50.0,
     "soil_moisture": 40.0,
-    "sunlight": 300.0,
     "water_level": 10.0
 }
 
@@ -32,13 +31,11 @@ def generate_row(timestamp):
     temperature = base["temperature"] + 5 * hour_factor + random.uniform(-1, 1)
     humidity = base["humidity"] - 10 * hour_factor + random.uniform(-3, 3)
     soil_moisture = base["soil_moisture"] + random.uniform(-5, 5)
-    sunlight = max(0, 800 * max(0, hour_factor)) + random.uniform(-20, 20)
     water_level = base["water_level"] + random.uniform(-0.5, 0.5)
 
     return (
         timestamp,
         soil_moisture,
-        sunlight,
         temperature,
         humidity,
         water_level
@@ -61,8 +58,8 @@ def main():
 
         cur.execute(f"""
             INSERT INTO {TABLE_NAME}
-            (timestamp, soil_moisture, sunlight, temperature, humidity, water_level)
-            VALUES (%s, %s, %s, %s, %s, %s)
+            (timestamp, soil_moisture, temperature, humidity, water_level)
+            VALUES (%s, %s, %s, %s, %s)
         """, row)
 
     conn.commit()
