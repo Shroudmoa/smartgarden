@@ -3,12 +3,10 @@ Technische Dokumentation Smart Garten
 Projektbeschreibung
 Das Projekt Smart Garten ist ein automatisiertes System zur Überwachung und Bewässerung von Pflanzen. Ein Raspberry Pi 4 (Pi-Top4) dient als zentrale Steuereinheit. Sensoren erfassen kontinuierlich Umgebungs- und Bodenwerte und steuern eine Pumpe zur Bewässerung.
 
-<<<<<<< HEAD
+
+
 Hardware: Pi-top mit Extension Plate
-=======
-Hardware:
-Pi-top mit Extension Plate
->>>>>>> 9a6b0a0 (second order)
+
 
 Sensoren und Aktoren :
 
