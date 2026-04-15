@@ -103,6 +103,7 @@ main.service :
 
 -----------------------------------------------------------------------------------------------------------------------
 Interaktion mit den Usern :
+
 unser Discord Bot kann auch Fehlermeldungen an user senden. Z.B wenn Wasserstand niedrig ist: 
 
 <img width="1450" height="425" alt="image" src="https://github.com/user-attachments/assets/7287e827-c4ad-49f6-ac79-b9cc59f4995f" />
