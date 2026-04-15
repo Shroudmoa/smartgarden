@@ -75,6 +75,11 @@ Grafana zur Überwachung
 [http://server-ip:3000]
 
 
+<img width="1527" height="659" alt="image" src="https://github.com/user-attachments/assets/1e921813-7347-4824-ac44-c2b26c0e5411" />
+
+
+<img width="1526" height="751" alt="image" src="https://github.com/user-attachments/assets/78143aee-ad2b-49e7-8a28-afb674fbe934" />
+
 
 Systemüberwachung
 Über btop kann die Systemlast überwacht werden, wenn man per ssh auf dem pi-top zugreift. 
@@ -84,6 +89,7 @@ CPU und RAM Auslastung werden kontrolliert.
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
 Funktionsweise
 - Die Sensoren erfassen kontinuierlich Messwerte.
@@ -97,6 +103,5 @@ main.service :
 <img width="765" height="380" alt="image" src="https://github.com/user-attachments/assets/792bca4e-ab4d-4b07-9518-635840015a57" />
 
 Erweiterung in build
-Discord Benachrichtigung-bot
-weitere sensoren
-Mögliche mobile Anbindung des Systems
+- Discord Benachrichtigung-bot
+- weitere sensoren
