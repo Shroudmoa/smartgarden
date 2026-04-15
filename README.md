@@ -34,11 +34,12 @@ Pumpe
 Peristaltikpumpe
 Anschluss D4
 
-Software
-Programmiersprache Python
+------------------------------------------------------------------
 
-Struktur
-main.py zentrale Steuerung des Systems
+
+- Programmiersprache Python
+
+- main.py zentrale Steuerung des Systems
 
 Weitere Skripte
 feuch_temp.py
