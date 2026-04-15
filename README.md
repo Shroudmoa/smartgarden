@@ -7,6 +7,8 @@ Das Projekt Smart Garten ist ein automatisiertes System zur Überwachung und Bew
 
 - main.py zentrale Steuerung des Systems
 
+- main.service als ein systemctl service, der dauerhaft am laufen bleibt
+
 - Hardware: Pi-top mit Extension Plate
 ----------------------------------------------------------------------------
 Sensoren und Aktoren :
@@ -72,6 +74,8 @@ Visual Studio Code im Browser zur Bearbeitung des Code. Gesichert mit passwort.
 Grafana zur Überwachung
 [http://server-ip:3000]
 
+
+
 Systemüberwachung
 Über btop kann die Systemlast überwacht werden, wenn man per ssh auf dem pi-top zugreift. 
 CPU und RAM Auslastung werden kontrolliert.
@@ -82,12 +86,15 @@ CPU und RAM Auslastung werden kontrolliert.
 
 
 Funktionsweise
-Die Sensoren erfassen kontinuierlich Messwerte.
-Die Daten werden an main.py übergeben und verarbeitet.
-Die Werte werden in der Datenbank gespeichert.
-Bei niedriger Bodenfeuchtigkeit wird die Pumpe automatisch aktiviert.
-Die Daten werden in Grafana visualisiert.
+- Die Sensoren erfassen kontinuierlich Messwerte.
+- Die Daten werden an main.py übergeben und verarbeitet.
+- Die Werte werden in der Datenbank gespeichert.
+- Bei niedriger Bodenfeuchtigkeit wird die Pumpe automatisch aktiviert.
+- Die Daten werden in Grafana visualisiert.
 
+main.service :
+
+<img width="765" height="380" alt="image" src="https://github.com/user-attachments/assets/792bca4e-ab4d-4b07-9518-635840015a57" />
 
 Erweiterung in build
 Discord Benachrichtigung-bot
