@@ -47,8 +47,6 @@ Anschluss D4
 ------------------------------------------------------------------
 
 
-
-
 Wie erwähnt haben wir ein main.py als Hauptprogeramm, das als ein Service am laufen ist. 
 sudo systemctl status main
 
@@ -61,7 +59,7 @@ weitere Skripte sind :
 Datenverarbeitung
 Alle Sensordaten werden erfasst und in einer Datenbank gespeichert.
 Die Daten werden anschließend in Grafana visualisiert und dargestellt.
-
+-----------------------------------------------------------------------------------------------------------------------
 Zugriff
 Web Zugriff über Browser
 Visual Studio Code im Browser zur Bearbeitung des Code. Gesichert mit passwort. 
@@ -90,7 +88,6 @@ CPU und RAM Auslastung werden kontrolliert.
 
 
 ------------------------------------------------------------------------------------------------------------------------
-
 Funktionsweise
 - Die Sensoren erfassen kontinuierlich Messwerte.
 - Die Daten werden an main.py übergeben und verarbeitet.
@@ -98,10 +95,15 @@ Funktionsweise
 - Bei niedriger Bodenfeuchtigkeit wird die Pumpe automatisch aktiviert.
 - Die Daten werden in Grafana visualisiert.
 
+-----------------------------------------------------------------------------------------------------------------------
+wir können das main.py als Service am laufen lassen. Das erleichtert alles, und nach jedem reboot, wird das Progeramm wieder automatisch gestartet.
 main.service :
 
 <img width="765" height="380" alt="image" src="https://github.com/user-attachments/assets/792bca4e-ab4d-4b07-9518-635840015a57" />
 
-Erweiterung in build
-- Discord Benachrichtigung-bot
-- weitere sensoren
+-----------------------------------------------------------------------------------------------------------------------
+Interaktion mit den Usern :
+unser Discord Bot kann auch Fehlermeldungen an user senden. Z.B wenn Wasserstand niedrig ist: 
+
+<img width="1450" height="425" alt="image" src="https://github.com/user-attachments/assets/7287e827-c4ad-49f6-ac79-b9cc59f4995f" />
+
