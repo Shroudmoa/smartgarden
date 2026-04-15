@@ -13,6 +13,7 @@ Sensoren und Aktoren :
 
 Temperatur und Luftfeuchtigkeitssensor
 Grove Temperature and Humidity Sensor Pro
+
 <img width="335" height="300" alt="image" src="https://github.com/user-attachments/assets/52c8d2f8-00ce-4148-899d-ec27841c7652" />
 
 SKU 101020019
@@ -21,6 +22,7 @@ Anschluss D0
 
 Bodenfeuchtesensor
 Grove Moisture Sensor
+
 <img width="345" height="292" alt="image" src="https://github.com/user-attachments/assets/c4236477-646b-47b5-a4d6-a52ffd2fd2d9" />
 
 SKU 101020008
@@ -29,6 +31,7 @@ Anschluss A0
 
 Wasserstandsensor
 Grove Water Level Sensor
+
 <img width="335" height="300" alt="image" src="https://github.com/user-attachments/assets/463aeb59-125b-4201-bb08-dafc76ac149e" />
 
 SKU 101020635
