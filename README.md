@@ -64,7 +64,9 @@ Zugriff
 Web Zugriff über Browser
 Visual Studio Code im Browser zur Bearbeitung des Code. Gesichert mit passwort. 
 [http://ip-adresse:8080]
+
 <img width="709" height="700" alt="image" src="https://github.com/user-attachments/assets/d6599786-4b14-4e6e-9add-71d01bc0723b" />
+
 <img width="682" height="507" alt="image" src="https://github.com/user-attachments/assets/261ab698-fcc0-4d60-8902-f6c4deb80e68" />
 
 Grafana zur Überwachung
@@ -73,6 +75,7 @@ Grafana zur Überwachung
 Systemüberwachung
 Über btop kann die Systemlast überwacht werden, wenn man per ssh auf dem pi-top zugreift. 
 CPU und RAM Auslastung werden kontrolliert.
+
 <img width="945" height="1040" alt="image" src="https://github.com/user-attachments/assets/78dce34c-edfa-47b7-bab3-1579494e74f1" />
 
 
