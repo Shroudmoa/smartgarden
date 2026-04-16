@@ -1,5 +1,4 @@
-###### Adresse check mit => i2cdetect -y 1
-
+from my_logging import log_error
 from smbus2 import SMBus
 import time
 
@@ -28,25 +27,20 @@ def berechne_wert(daten):
 def lese_wassterstand():
     with SMBus(BUS_NUMMER) as bus:
 
-            daten = lese_sensor(bus, ADRESSE)
+        daten = lese_sensor(bus, ADRESSE)
 
-            if daten:
-                #raw data
-                print("Raw data:", daten)
+        if daten:
+            print("Raw data:", daten)
+            wert = berechne_wert(daten)
 
-                # one
-                wert = berechne_wert(daten)
+            if wert >= 150:
+                log_error(sensor="Wasserstandssensor", level="Info", errormsg=f"Wasserstand HOCH: {wert}")
+            else:
+                log_error(sensor="Wasserstandssensor", level="Info", errormsg=f"Wasserstand NIEDRIG {wert}")
 
-                
-                print("Wert:", wert)
+            return (wert * 100) / 250
 
-                # not needed
-                if wert >= 150:
-                    print("Wasserstand HOCH")
-                else:
-                    print("Wasserstand NIEDRIG")
-
-                print("---------------------------")
-
-            return((wert*100)/250)
+        else:
+            log_error(sensor="Wasserstandssensor", level="ERROR", errormsg="Keine Daten gelesen")
+            return None
 

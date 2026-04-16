@@ -1,13 +1,13 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 LOG_FILE = "errors.jsonl"
 
 def log_error(sensor: str, level: str = "ERROR", errormsg: str ="-"):
     entry = {
-        "time": datetime.utcnow().isoformat() + "Z",
+        "time": datetime.now(timezone.utc).isoformat(),
         "sensor": sensor,
-        "level": error
+        "level": level,
         "errormsg": errormsg
     }
 
@@ -16,3 +16,5 @@ def log_error(sensor: str, level: str = "ERROR", errormsg: str ="-"):
             f.write(json.dumps(entry) + "\n")
     except Exception as e:
         print(f"[LOGGING FAILURE] {e}")
+
+log_error(sensor = "no sensor", level = "Info", errormsg = "testest")

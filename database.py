@@ -1,4 +1,5 @@
 import psycopg2
+from my_logging import log_error
 
 def get_connection():
     return psycopg2.connect(

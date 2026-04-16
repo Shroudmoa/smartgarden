@@ -1,0 +1,51 @@
+{"time": "2026-04-16T06:38:48.439359+00:00", "sensor": "no sensor", "level": "Info", "errormsg": "testest"}
+{"time": "2026-04-16T07:15:12.418051+00:00", "sensor": "no sensor", "level": "Info", "errormsg": "testest"}
+{"time": "2026-04-16T07:15:13.080088+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:15:50.712807+00:00", "sensor": "no sensor", "level": "Info", "errormsg": "testest"}
+{"time": "2026-04-16T07:15:51.306997+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:15:51.309378+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 29.06666666666667"}
+{"time": "2026-04-16T07:15:51.559905+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:15:51.560420+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:15:51.561075+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:16:51.580013+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:16:51.582337+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.8"}
+{"time": "2026-04-16T07:16:51.833181+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:16:51.833693+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:16:51.834374+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:17:51.838321+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:17:51.840237+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.533333333333335"}
+{"time": "2026-04-16T07:17:52.091073+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:17:52.091582+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:17:52.092279+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:18:52.096281+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:18:52.097736+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.533333333333335"}
+{"time": "2026-04-16T07:18:52.348263+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:18:52.348742+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:18:52.349430+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:19:52.354316+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:19:52.355374+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.666666666666664"}
+{"time": "2026-04-16T07:19:52.605876+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:19:52.606196+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:19:52.607113+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:20:52.611336+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:20:52.612396+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.533333333333335"}
+{"time": "2026-04-16T07:20:52.862887+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:20:52.863246+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:20:52.863792+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:21:52.867631+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:21:52.868699+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.8"}
+{"time": "2026-04-16T07:21:53.119196+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:21:53.119516+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:21:53.120071+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:22:30.150175+00:00", "sensor": "no sensor", "level": "Info", "errormsg": "testest"}
+{"time": "2026-04-16T07:22:30.743106+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:22:30.745495+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.666666666666664"}
+{"time": "2026-04-16T07:22:30.996008+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:22:30.996363+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:22:30.996923+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:23:31.003351+00:00", "sensor": "SYSTEM", "level": "Info", "errormsg": "Loop iteration started"}
+{"time": "2026-04-16T07:23:31.009061+00:00", "sensor": "Boenfeuchte Sensor", "level": "Info", "errormsg": "Bodenfeuchte: 30.533333333333335"}
+{"time": "2026-04-16T07:23:31.259685+00:00", "sensor": "DHT22", "level": "ERROR", "errormsg": "Temp read failed: DHT sensor not found, check wiring"}
+{"time": "2026-04-16T07:23:31.260022+00:00", "sensor": "DHT22", "level": "Info", "errormsg": "Humidity: None"}
+{"time": "2026-04-16T07:23:31.260605+00:00", "sensor": "Wasserstandssensor", "level": "ERROR", "errormsg": "Keine Daten gelesen"}
+{"time": "2026-04-16T07:25:26.420812+00:00", "sensor": "no sensor", "level": "Info", "errormsg": "testest"}
